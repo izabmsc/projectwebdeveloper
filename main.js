@@ -12,9 +12,13 @@
 //console.log(age)
 //console.log(age +age2)
 
-let friends =['Alan', 'Mark', 'Julia', 'Bella', 4]
-console.log (friends[1])
-friends[1] = 'Carlinhos'
-console.log (friends[1])
-friends[5] = 'Anna'
+let friends =['Alan', 'Mark', 'Julia', 'Bella']
 console.log (friends)
+
+friends [1] = 'Anna'
+friends[1] = 'Carlinhos'
+friends[5] = 1
+
+console.log (friends)//array com as alterações "friends"
+console.log (friends[1])//array com 1 na lista
+//sempre que tiver a variavel, qualquer alteração tem que imprimir de novo
